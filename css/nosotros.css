@@ -1,0 +1,59 @@
+/* Estilos generales para la página de "Nosotros" */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nosotros-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; /* Añadido margen vertical */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.nosotros-form h2 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Tamaño de fuente más grande para los subtítulos */
+    color: #333; /* Color más oscuro para destacar los títulos */
+}
+
+.nosotros-form h1 {
+    font-size: 18px; /* Tamaño de fuente ajustado para la descripción */
+    line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+    color: #555; /* Color más claro para el texto */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
